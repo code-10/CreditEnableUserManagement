@@ -26,12 +26,12 @@ I have used free MySQL remote db, please find the information below\
 Details about GMX Mail\
 [Link to GMX](#https://www.gmx.com/)\
 `email: nereji6806@gmx.us`\
-`password: nereji6806@usoplay.com`\
+`password: nereji6806@usoplay.com`
 
 Helpful Commands to get information about Celery\
-[http://localhost:5555](#http://localhost:5555)\
-1. `celery -A app.celery_config inspect registered`\
-2. `celery -A app.celery_config inspect reserved`\
+[http://localhost:5555](#http://localhost:5555)
+1. `celery -A app.celery_config inspect registered`
+2. `celery -A app.celery_config inspect reserved`
 3. `celery -A app.celery_config inspect scheduled`
 
 Head to [http://localhost:8000/docs](#https://localhost:8000/docs) for Swagger Link\
