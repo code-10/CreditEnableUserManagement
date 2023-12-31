@@ -19,22 +19,23 @@ Steps to run the application
 
 Details about MySQL DB\
 I have used free MySQL remote db, please find the information below\
-[Link to FreeDB](#https://freedb.tech/dashboard/)\
+[Link to FreeDB](https://freedb.tech/dashboard/)\
+[Link to PHPMyAdmin](https://phpmyadmin.freedb.tech/)\
 `email: nereji6806@usoplay.com`\
 `password: nereji6806@usoplay.com`
 
 Details about GMX Mail\
-[Link to GMX](#https://www.gmx.com/)\
+[Link to GMX](https://www.gmx.com/)\
 `email: nereji6806@gmx.us`\
 `password: nereji6806@usoplay.com`
 
 Helpful Commands to get information about Celery\
-[http://localhost:5555](#http://localhost:5555)
+[http://localhost:5555](http://localhost:5555)
 1. `celery -A app.celery_config inspect registered`
 2. `celery -A app.celery_config inspect reserved`
 3. `celery -A app.celery_config inspect scheduled`
 
-Head to [http://localhost:8000/docs](#https://localhost:8000/docs) for Swagger Link\
+Head to [http://localhost:8000/docs](https://localhost:8000/docs) for Swagger Link\
 ![Screenshot 2023-12-31 211643](https://github.com/code-10/CreditEnableUserManagement/assets/23309323/093ad724-0e94-40cb-888f-0a0590a52c79)
 
 Database Snapshot\
