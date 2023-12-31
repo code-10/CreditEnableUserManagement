@@ -15,7 +15,7 @@ Steps to run the application
 5. Run Celery, Celery Beat and Flower\
   `celery -A app.celery_config worker --loglevel=debug`\
   `celery -A app.celery_config beat`\
-  `celery -A app.celery_config flower`\
+  `celery -A app.celery_config flower`
 
 Details about MySQL DB\
 I have used free MySQL remote db, please find the information below\
