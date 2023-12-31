@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "00a8a718-d491-4ca9-8a1b-8876f7a1362d",
+		"name": "CreditEnableUserManagement",
+		"description": "Credit Enable User Manegement Apis (CRUD)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25139422",
+		"_collection_link": "https://cloudy-resonance-892588.postman.co/workspace/My-Workspace~5622d642-9d21-44f5-8ad6-81c8a79a2a41/collection/25139422-00a8a718-d491-4ca9-8a1b-8876f7a1362d?action=share&source=collection_link&creator=25139422"
+	},
+	"item": [
+		{
+			"name": "GetAllUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/user_management/get_all_users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user_management",
+						"get_all_users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/user_management/get_user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user_management",
+						"get_user",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"pavanqwssddwqddqww@gmail.com\",\r\n  \"first_name\": \"pavan\",\r\n  \"last_name\": \"kumar1\",\r\n  \"gender\": \"M\",\r\n  \"password\": \"asdasd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user_management/add_user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user_management",
+						"add_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"email\": \"pavanqassqww@gmail.com\",\r\n    \"first_name\": \"pavan\",\r\n    \"last_name\": \"kumar1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user_management/update_user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user_management",
+						"update_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/user_management/delete_user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user_management",
+						"delete_user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
